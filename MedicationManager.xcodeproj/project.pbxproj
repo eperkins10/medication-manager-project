@@ -7,25 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0AC871274D531A00135DA5 /* TakenDate+convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0AC870274D531A00135DA5 /* TakenDate+convenience.swift */; };
+		0B212CB3274C10BD00DD9E00 /* MedicationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B212CB2274C10BD00DD9E00 /* MedicationListViewController.swift */; };
+		0B212CB6274C10CA00DD9E00 /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B212CB5274C10CA00DD9E00 /* MedicationDetailViewController.swift */; };
 		0B23953F274C02170049CF1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B23953E274C02170049CF1E /* AppDelegate.swift */; };
 		0B239541274C02170049CF1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B239540274C02170049CF1E /* SceneDelegate.swift */; };
-		0B239543274C02170049CF1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B239542274C02170049CF1E /* ViewController.swift */; };
 		0B239546274C02170049CF1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B239544274C02170049CF1E /* Main.storyboard */; };
 		0B239549274C02170049CF1E /* MedicationManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B239547274C02170049CF1E /* MedicationManager.xcdatamodeld */; };
 		0B23954B274C021A0049CF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B23954A274C021A0049CF1E /* Assets.xcassets */; };
 		0B23954E274C021A0049CF1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B23954C274C021A0049CF1E /* LaunchScreen.storyboard */; };
+		0B2B7C9B274C126F0060679A /* MedicationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B7C9A274C126F0060679A /* MedicationTableViewCell.swift */; };
+		0B579B15274D98880009FDA5 /* MoodSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B579B14274D98880009FDA5 /* MoodSurveyViewController.swift */; };
+		0B579B18274D9C1D0009FDA5 /* MoodSurvey+convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B579B17274D9C1D0009FDA5 /* MoodSurvey+convenience.swift */; };
+		0B579B1B274D9C880009FDA5 /* MoodSurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B579B1A274D9C880009FDA5 /* MoodSurveyController.swift */; };
+		0B579B5C274EAC8E0009FDA5 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B579B5B274EAC8E0009FDA5 /* NotificationScheduler.swift */; };
+		0B579B5F274EC1620009FDA5 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B579B5E274EC1620009FDA5 /* Strings.swift */; };
+		0BF4AA92274C143F0022578C /* MedicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4AA91274C143F0022578C /* MedicationController.swift */; };
+		0BF4AA98274C17B20022578C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4AA97274C17B20022578C /* CoreDataStack.swift */; };
+		0BF4AA9B274C198D0022578C /* Medication+convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4AA9A274C198D0022578C /* Medication+convenience.swift */; };
+		0BF4AA9F274C24D50022578C /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4AA9E274C24D50022578C /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B0AC870274D531A00135DA5 /* TakenDate+convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TakenDate+convenience.swift"; sourceTree = "<group>"; };
+		0B212CB2274C10BD00DD9E00 /* MedicationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationListViewController.swift; sourceTree = "<group>"; };
+		0B212CB5274C10CA00DD9E00 /* MedicationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewController.swift; sourceTree = "<group>"; };
 		0B23953B274C02170049CF1E /* MedicationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B23953E274C02170049CF1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B239540274C02170049CF1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B239542274C02170049CF1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B239545274C02170049CF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B239548274C02170049CF1E /* MedicationManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicationManager.xcdatamodel; sourceTree = "<group>"; };
 		0B23954A274C021A0049CF1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B23954D274C021A0049CF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B23954F274C021A0049CF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2B7C9A274C126F0060679A /* MedicationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationTableViewCell.swift; sourceTree = "<group>"; };
+		0B579B14274D98880009FDA5 /* MoodSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSurveyViewController.swift; sourceTree = "<group>"; };
+		0B579B17274D9C1D0009FDA5 /* MoodSurvey+convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoodSurvey+convenience.swift"; sourceTree = "<group>"; };
+		0B579B1A274D9C880009FDA5 /* MoodSurveyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSurveyController.swift; sourceTree = "<group>"; };
+		0B579B5B274EAC8E0009FDA5 /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		0B579B5E274EC1620009FDA5 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		0BF4AA91274C143F0022578C /* MedicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationController.swift; sourceTree = "<group>"; };
+		0BF4AA97274C17B20022578C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		0BF4AA9A274C198D0022578C /* Medication+convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medication+convenience.swift"; sourceTree = "<group>"; };
+		0BF4AA9E274C24D50022578C /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +63,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B212CB8274C10DA00DD9E00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B23953E274C02170049CF1E /* AppDelegate.swift */,
+				0B239540274C02170049CF1E /* SceneDelegate.swift */,
+				0B23954A274C021A0049CF1E /* Assets.xcassets */,
+				0B23954F274C021A0049CF1E /* Info.plist */,
+				0BF4AA9E274C24D50022578C /* DateFormatter.swift */,
+				0B579B5B274EAC8E0009FDA5 /* NotificationScheduler.swift */,
+				0B579B5E274EC1620009FDA5 /* Strings.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B212CBA274C10F200DD9E00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B239544274C02170049CF1E /* Main.storyboard */,
+				0B23954C274C021A0049CF1E /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B212CBB274C110500DD9E00 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B212CB2274C10BD00DD9E00 /* MedicationListViewController.swift */,
+				0B212CB5274C10CA00DD9E00 /* MedicationDetailViewController.swift */,
+				0B579B14274D98880009FDA5 /* MoodSurveyViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		0B239532274C02170049CF1E = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +115,43 @@
 		0B23953D274C02170049CF1E /* MedicationManager */ = {
 			isa = PBXGroup;
 			children = (
-				0B23953E274C02170049CF1E /* AppDelegate.swift */,
-				0B239540274C02170049CF1E /* SceneDelegate.swift */,
-				0B239542274C02170049CF1E /* ViewController.swift */,
-				0B239544274C02170049CF1E /* Main.storyboard */,
-				0B23954A274C021A0049CF1E /* Assets.xcassets */,
-				0B23954C274C021A0049CF1E /* LaunchScreen.storyboard */,
-				0B23954F274C021A0049CF1E /* Info.plist */,
-				0B239547274C02170049CF1E /* MedicationManager.xcdatamodeld */,
+				0BF4AA95274C16630022578C /* CoreData */,
+				0BF4AA94274C14430022578C /* ModelControllers */,
+				0B212CBB274C110500DD9E00 /* ViewControllers */,
+				0B2B7C9D274C12840060679A /* CustomViews */,
+				0B212CBA274C10F200DD9E00 /* Views */,
+				0B212CB8274C10DA00DD9E00 /* Resources */,
 			);
 			path = MedicationManager;
+			sourceTree = "<group>";
+		};
+		0B2B7C9D274C12840060679A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B7C9A274C126F0060679A /* MedicationTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		0BF4AA94274C14430022578C /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BF4AA91274C143F0022578C /* MedicationController.swift */,
+				0B579B1A274D9C880009FDA5 /* MoodSurveyController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		0BF4AA95274C16630022578C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0B239547274C02170049CF1E /* MedicationManager.xcdatamodeld */,
+				0BF4AA97274C17B20022578C /* CoreDataStack.swift */,
+				0BF4AA9A274C198D0022578C /* Medication+convenience.swift */,
+				0B0AC870274D531A00135DA5 /* TakenDate+convenience.swift */,
+				0B579B17274D9C1D0009FDA5 /* MoodSurvey+convenience.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +224,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B239543274C02170049CF1E /* ViewController.swift in Sources */,
+				0B579B1B274D9C880009FDA5 /* MoodSurveyController.swift in Sources */,
+				0B579B18274D9C1D0009FDA5 /* MoodSurvey+convenience.swift in Sources */,
+				0B579B5F274EC1620009FDA5 /* Strings.swift in Sources */,
+				0B212CB6274C10CA00DD9E00 /* MedicationDetailViewController.swift in Sources */,
 				0B23953F274C02170049CF1E /* AppDelegate.swift in Sources */,
+				0B212CB3274C10BD00DD9E00 /* MedicationListViewController.swift in Sources */,
 				0B239549274C02170049CF1E /* MedicationManager.xcdatamodeld in Sources */,
+				0BF4AA9F274C24D50022578C /* DateFormatter.swift in Sources */,
+				0B579B5C274EAC8E0009FDA5 /* NotificationScheduler.swift in Sources */,
+				0B0AC871274D531A00135DA5 /* TakenDate+convenience.swift in Sources */,
+				0BF4AA92274C143F0022578C /* MedicationController.swift in Sources */,
+				0B2B7C9B274C126F0060679A /* MedicationTableViewCell.swift in Sources */,
+				0BF4AA9B274C198D0022578C /* Medication+convenience.swift in Sources */,
+				0B579B15274D98880009FDA5 /* MoodSurveyViewController.swift in Sources */,
 				0B239541274C02170049CF1E /* SceneDelegate.swift in Sources */,
+				0BF4AA98274C17B20022578C /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +388,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G85A29FYUQ;
-				INFOPLIST_FILE = MedicationManager/Info.plist;
+				INFOPLIST_FILE = MedicationManager/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +407,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G85A29FYUQ;
-				INFOPLIST_FILE = MedicationManager/Info.plist;
+				INFOPLIST_FILE = MedicationManager/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

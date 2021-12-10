@@ -7,23 +7,38 @@
 
 import UIKit
 
+protocol MoodSurveyViewControllerDelegate: class {
+    func moodButtonTapped(with emoji: String)
+}
+
 class MoodSurveyViewController: UIViewController {
 
+    weak var delegate: MoodSurveyViewControllerDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        NotificationCenter.default.addObserver(self, selector: #selector(reminderFired), name: NSNotification.Name(Strings.medicationReminder), object: nil)
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func closeButtonTapped(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
     }
-    */
+    
+    @IBAction func emojiTapped(_ sender: UIButton) {
+        guard let emoji = sender.titleLabel?.text else { return }
+    delegate?.moodButtonTapped(with: emoji)
+ 
+    }
+    
+    @objc private func reminderFired() {
+        view.backgroundColor = .systemRed
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            self.view.backgroundColor = .systemPurple
+        }
+    }
+    
 
 }
